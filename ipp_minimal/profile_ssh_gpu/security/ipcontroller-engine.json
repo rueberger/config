@@ -1,0 +1,16 @@
+{
+  "control": 38370,
+  "mux": 41183,
+  "hb_pong": 45105,
+  "pack": "json",
+  "interface": "tcp://*",
+  "ssh": "",
+  "registration": 38377,
+  "iopub": 58096,
+  "key": "4d41196d-050a-44f5-85d8-f6bd473b3b12",
+  "unpack": "json",
+  "signature_scheme": "hmac-sha256",
+  "hb_ping": 46599,
+  "task": 57079,
+  "location": "172.17.0.1"
+}
