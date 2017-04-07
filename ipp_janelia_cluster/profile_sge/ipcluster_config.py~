@@ -1,0 +1,18 @@
+import multiprocessing
+
+
+c = get_config()
+
+c.IPClusterStart.controller_launcher_class = "SGE"
+c.IPClusterEngines.engine_launcher_class = "SGE"
+c.IPClusterEngines.n = 150
+
+c.SGEEngineSetLauncher.batch_template_file = '/groups/turaga/home/bergera/.ipython/profile_sge/engine_batch_template'
+
+
+c.HubFactory.ip = '*'
+c.HubFactory.engine_ip = '*'
+c.HubFactory.db_class = "SQLiteDB"
+
+c.IPEngineApp.wait_for_url_file = 60
+c.EngineFactory.timeout = 60

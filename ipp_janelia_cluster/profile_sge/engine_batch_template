@@ -1,0 +1,6 @@
+#$ -V
+#$ -t 1-{n} 
+#$ -S /bin/sh
+#$ -N ipengine
+#$ -pe batch 32
+/groups/turaga/home/bergera/anaconda3/envs/py2_tf_gpu/bin/python -m ipyparallel.engine --profile-dir="{profile_dir}" --cluster-id="{cluster_id}"
