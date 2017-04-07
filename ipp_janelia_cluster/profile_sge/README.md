@@ -1,4 +1,4 @@
- Installation
+# Installation
 
  1. copy config folder `profile_sge` to  `~/.ipython/profile_sge`
  2. edit last line in `engine_batch_template` with the path to `ipengine` within your desired environment
